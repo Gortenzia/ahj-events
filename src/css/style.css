@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+    color: black;
+    background: #ddd;
+    padding: 10px;
+    margin: 0;
+}
+
+#main {
+    width: auto;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.task-style {
+    margin-top: 5px;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.title {
+    margin-top: 10px;
+    display: block;
+}
+
+.label {
+    margin: 5px auto;
+}
+
+.div-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message {
+    color: #999;
+}
+
+.task {
+    border: 1px solid #999;
+    color: #060;
+}
+
+.error {
+    display: none;
+    background: #711;
+    color: #eee;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.active {
+    display: block;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
